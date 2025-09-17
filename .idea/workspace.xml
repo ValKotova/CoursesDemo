@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_blur_circle.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_blur_rounded.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_circle_ripple.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_rounded.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_arrow_right_short_fill.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_bookmark.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_bookmark_filled.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_home.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_person.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_star_filled.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/font/roboto.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/layout/item_layout.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/layout/layout_stateful_container.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/common/presentation/src/main/res/menu/bottom_navigation_menu.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/feature/auth/src/main/res/drawable/gradient.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_odnoklassniki.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_odnoklassniki_padded.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_vk.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_vk_padded.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/feature/auth/src/main/res/layout/activity_auth.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/feature/favorites/src/main/res/layout/fragment_favorites.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/feature/home/src/main/res/layout/fragment_home.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/feature/main/src/main/res/drawable/bottom_nav_item_background.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/feature/main/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/feature/profile/src/main/res/layout/fragment_profile.xml">
+        <config>
+          <theme>@style/Theme.RoundedApp</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48509fad-e516-4f68-99a0-5581f906eade" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/common/data/CourcesDemo.common.data.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/magni/coursesdemo/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/magni/coursesdemo/MyApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/magni/coursesdemo/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/common/CourcesRepoImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/database/AppDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/database/CourceDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/database/CourceEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/network/CourceData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/network/CourcesApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/network/CoursesResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/network/FakeCourcesApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/network/RetrofitCourcesApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/res/mipmap/course_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/res/mipmap/course_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data/src/main/res/mipmap/course_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/src/androidTest/java/com/magni/coursesdemo/di/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/DataBaseModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/NavigationModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/NetworkModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/RepoModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/UseCaseModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/ViewModelModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/navigation/AppFragmentProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/navigation/AppNavigator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/di/src/test/java/com/magni/coursesdemo/di/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/domain/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/domain/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/entity/AppError.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/entity/Course.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/repo/CourcesRepo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/useCases/BaseUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/useCases/GetCourcesUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/useCases/GetFavoritesUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/useCases/UpdateCourseLikeStatusUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/androidTest/java/com/magni/coursesdemo/presentation/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/CourseAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/ErrorHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/FillWidthTransformation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/FragmentContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/NavigationContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/StatefulContainer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/UiState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/color/bottom_nav_icon_text_tint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/color/bottom_nav_ripple_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_blur_circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_blur_rounded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_circle_ripple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_rounded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/empty.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_arrow_down_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_arrow_right_short_fill.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_bookmark.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_bookmark_filled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_chevron_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_error.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_star_filled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/placeholder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/font/roboto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/font/roboto_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/font/roboto_medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/font/roboto_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/layout/item_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/layout/layout_stateful_container.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/menu/bottom_navigation_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/presentation/src/test/java/com/magni/coursesdemo/presentation/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/src/androidTest/java/com/magni/coursesdemo/feature/auth/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/java/com/magni/coursesdemo/feature/auth/AuthActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/java/com/magni/coursesdemo/feature/auth/AuthViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/drawable/gradient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_odnoklassniki.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_odnoklassniki_padded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_vk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_vk_padded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/layout/activity_auth.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/auth/src/test/java/com/magni/coursesdemo/feature/auth/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/favorites/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/favorites/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/favorites/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/favorites/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/favorites/src/androidTest/java/com/magni/coursesdemo/feature/favorites/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/favorites/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/favorites/src/main/java/com/magni/coursesdemo/feature/favorites/FavoritesFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/favorites/src/main/java/com/magni/coursesdemo/feature/favorites/FavoritesViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/favorites/src/main/res/layout/fragment_favorites.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/favorites/src/test/java/com/magni/coursesdemo/feature/favorites/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/home/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/home/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/home/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/home/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/home/src/androidTest/java/com/magni/coursesdemo/feature/home/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/home/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/home/src/main/java/com/magni/coursesdemo/feature/home/presentation/HomeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/home/src/main/java/com/magni/coursesdemo/feature/home/presentation/HomeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/home/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/home/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/home/src/test/java/com/magni/coursesdemo/feature/home/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/main/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/main/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/main/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/main/src/androidTest/java/com/magni/coursesdemo/feature/main/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/main/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/main/src/main/java/com/magni/coursesdemo/feature/main/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/main/src/main/res/drawable/bottom_nav_item_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/main/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/main/src/test/java/com/magni/coursesdemo/feature/main/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/profile/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/profile/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/profile/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/profile/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/profile/src/androidTest/java/com/magni/coursesdemo/feature/profile/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/profile/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/profile/src/main/java/com/magni/coursesdemo/feature/profile/ProfileFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/profile/src/main/java/com/magni/coursesdemo/feature/profile/ProfileViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/profile/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature/profile/src/test/java/com/magni/coursesdemo/feature/profile/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=SLVNW19B13001912)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/common/presentation">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CourcesDemo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CourcesDemo" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CourcesDemo" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="presentation" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CourcesDemo" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="presentation" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="32dbQp9N6FVbLglHyMeCkTAXp6B" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "DEBUGGABLE_DEVICE": "huawei-stk_lx3-SLVNW19B13001912",
+    "DEBUGGABLE_PROCESS": "com.magni.coursesdemo",
+    "DEBUGGER_ID": "Auto",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHOW_ALL_PROCESSES": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Dependencies",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Repos\CourcesDemo\common\presentation\src\main\res\font" />
+      <recent name="C:\Repos\CourcesDemo\common\presentation\src\main\res\drawable" />
+      <recent name="C:\Repos\CourcesDemo\common\presentation\src\main\res\menu" />
+      <recent name="C:\Repos\CourcesDemo\feature\profile\src\main\java\com\magni\courcesdemo\feature\profile" />
+      <recent name="C:\Repos\CourcesDemo\feature\profile\src\main\res\layout" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.magni.courcesdemo.di" />
+      <recent name="com.magni.courcesdemo.di.navigation" />
+      <recent name="com.magni.courcesdemo.feature.favorites" />
+      <recent name="com.magni.coursesdemo.domain.useCases" />
+      <recent name="com.magni.courcesdemo.feature.home.presentation" />
+    </key>
+    <key name="android.template.-714617303">
+      <recent name="com.magni.courcesdemo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="CourcesDemo.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48509fad-e516-4f68-99a0-5581f906eade" name="Changes" comment="" />
+      <created>1757753383093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757753383093</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/feature/home/src/main/java/com/magni/coursesdemo/feature/home/presentation/HomeViewModel.kt</url>
+          <line>62</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/CourseAdapter.kt</url>
+          <line>39</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/feature/home/src/main/java/com/magni/coursesdemo/feature/home/presentation/HomeFragment.kt</url>
+          <line>59</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/feature/home/src/main/java/com/magni/coursesdemo/feature/home/presentation/HomeFragment.kt</url>
+          <line>56</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/feature/home/src/main/java/com/magni/coursesdemo/feature/home/presentation/HomeFragment.kt</url>
+          <line>68</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.magni.courcesdemo.UiState$Success" memberName="data" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.magni.courcesdemo.feature.auth.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758124600922" />
+          </value>
+        </entry>
+        <entry key="com.magni.courcesdemo.feature.favorites.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758125411896" />
+          </value>
+        </entry>
+        <entry key="com.magni.courcesdemo.feature.home.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758124914754" />
+          </value>
+        </entry>
+        <entry key="com.magni.courcesdemo.feature.main.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758124759265" />
+          </value>
+        </entry>
+        <entry key="com.magni.courcesdemo.feature.profile.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758125505752" />
+          </value>
+        </entry>
+        <entry key="com.magni.courcesdemo.presentation.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758115788619" />
+          </value>
+        </entry>
+        <entry key="com.magni.coursesdemo">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758129841856" />
+          </value>
+        </entry>
+        <entry key="com.magni.coursesdemo.feature.home.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758133952794" />
+          </value>
+        </entry>
+        <entry key="com.magni.coursesdemo.feature.main.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758134131383" />
+          </value>
+        </entry>
+        <entry key="com.magni.coursesdemo.feature.profile.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758132644782" />
+          </value>
+        </entry>
+        <entry key="com.magni.coursesdemo.presentation.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758132883313" />
+          </value>
+        </entry>
+        <entry key="com.magni.coursesdemo.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758129841859" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

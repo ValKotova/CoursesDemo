@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Transparent padding item (adjust size as needed) -->
+    <item
+        android:width="26dp"
+        android:height="26dp"
+        android:drawable="@android:color/transparent" />
+
+    <!-- Your original icon centered within the padding -->
+    <item
+        android:width="16dp"
+        android:height="26dp"
+        android:drawable="@drawable/ic_odnoklassniki"
+        android:gravity="center" />
+</layer-list>

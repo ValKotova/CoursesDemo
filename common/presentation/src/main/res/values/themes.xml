@@ -1,0 +1,167 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RoundedApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorBackground">@color/dark</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/dark</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/container</item>
+        <item name="colorSurface">@color/container</item>
+
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.Header1</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.Header2</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.LabelLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.BodyMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.LabelSmall</item>
+
+        <item name="materialButtonStyle">@style/Widget.RoundedApp.Button</item>
+
+        <item name="textInputStyle">@style/Widget.RoundedApp.TextInputLayout</item>
+    </style>
+
+    <style name="Theme.Auth" parent="Theme.RoundedApp">
+        <item name="android:navigationBarColor">@color/dark</item>
+    </style>
+
+    <style name="Theme.RoundedApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RoundedShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+    </style>
+
+    <style name="TextAppearance.Header1" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineHeight">36dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontWeight">400</item>
+    </style>
+
+    <style name="TextAppearance.Header2" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight">18dp</item>
+        <item name="android:letterSpacing">0.009375</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontWeight">500</item>
+    </style>
+
+    <style name="TextAppearance.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineHeight">20dp</item>
+        <item name="android:letterSpacing">0.00714</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextAppearance.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineHeight">20dp</item>
+        <item name="android:letterSpacing">0.01786</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontWeight">400</item>
+    </style>
+
+    <style name="TextAppearance.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineHeight">16dp</item>
+        <item name="android:letterSpacing">0.01786</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontWeight">400</item>
+    </style>
+
+    <style name="TextAppearance.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineHeight">15dp</item>
+        <item name="android:letterSpacing">0.03333</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+
+    <style name="TextAppearance.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineHeight">16dp</item>
+        <item name="android:letterSpacing">0.03125</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+
+    <!-- Custom button style -->
+    <style name="Widget.RoundedApp.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.LabelLarge</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+    <!-- Error text appearance -->
+    <style name="TextAppearance.BodyMedium.Error" parent="TextAppearance.BodyMedium">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="Widget.RoundedApp.TextInputLayout" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/container</item>
+        <item name="boxBackgroundMode">filled</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="boxCornerRadiusTopStart">30dp</item>
+        <item name="boxCornerRadiusTopEnd">30dp</item>
+        <item name="boxCornerRadiusBottomStart">30dp</item>
+        <item name="boxCornerRadiusBottomEnd">30dp</item>
+        <item name="errorTextAppearance">@style/TextAppearance.BodyMedium.Error</item>
+        <item name="errorTextColor">@color/error</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <!-- Custom TextInputEditText style -->
+    <style name="Widget.RoundedApp.TextInputEditText" parent="Widget.Material3.TextInputEditText.FilledBox">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:paddingBottom">11dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.BodyMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColorHint">@color/hint</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+    </style>
+
+    <style name="ActiveIndicatorStyle" parent="@style/Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/container</item>
+        <item name="shapeAppearance">@style/ActiveIndicatorShapeAppearance</item>
+    </style>
+
+    <style name="ActiveIndicatorShapeAppearance" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeBottomLeft">16dp</item>
+        <item name="cornerSizeBottomRight">16dp</item>
+    </style>
+
+</resources>

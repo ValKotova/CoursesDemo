@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CoursesDemo</string>
+    <string name="home">Главная</string>
+    <string name="favorites">Избранное</string>
+    <string name="more">Подробнее</string>
+    <string name="profile">Аккаунт</string>
+    <string name="support">Написать в поддержку</string>
+    <string name="settings">Настройки</string>
+    <string name="log_out">Выйти из аккаунта</string>
+    <string name="price_format">%s ₽</string>
+    <string name="retry">Повторить</string>
+    <string name="empty_message_generic">Список пуст</string>
+    <string name="sort_by_date">По дате добавления</string>
+    <string name="enter">Вход</string>
+    <string name="email">email</string>
+    <string name="login_hint">example@gmail.com</string>
+    <string name="password">Пароль</string>
+    <string name="enter_your_password">Введите пароль</string>
+    <string name="no_account">Нет аккаунта?</string>
+    <string name="register">Регистрация</string>
+    <string name="forgot_password">Забыл пароль</string>
+    <string name="your_courses">Ваши курсы</string>
+    <string name="search">Search courses...</string>
+
+    <string name="error_generic">Что-то пошло не так.</string>
+    <string name="error_title">Ошибка</string>
+    <string name="error_network_title">Ошибка сети</string>
+    <string name="error_network_message">Проверьте интернет соединение</string>
+    <string name="error_database_title">Ошибка базы данных</string>
+    <string name="error_database_message">Попробуйте переустановить приложение или очистить кэш</string>
+</resources>
