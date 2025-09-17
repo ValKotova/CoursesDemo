@@ -1,5 +1,7 @@
 package com.magni.coursesdemo.feature.auth
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -50,6 +52,24 @@ class AuthActivity : AppCompatActivity() {
 
         binding.btnLogin.setOnClickListener {
             viewModel.login()
+        }
+
+        binding.btnVK.setOnClickListener {
+            try {
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://vk.com"))
+                startActivity(intent)
+            } catch (t: Throwable) {
+
+            }
+        }
+
+        binding.btnOdnoklassniki.setOnClickListener {
+            try {
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://ok.ru/"))
+                startActivity(intent)
+            } catch (t: Throwable) {
+
+            }
         }
     }
 }
