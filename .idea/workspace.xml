@@ -141,190 +141,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48509fad-e516-4f68-99a0-5581f906eade" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/common/data/CourcesDemo.common.data.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/magni/coursesdemo/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/magni/coursesdemo/MyApp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/magni/coursesdemo/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/common/CourcesRepoImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/database/AppDatabase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/database/CourceDao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/database/CourceEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/network/CourceData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/network/CourcesApi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/network/CoursesResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/network/FakeCourcesApi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/java/com/magni/coursesdemo/data/network/RetrofitCourcesApi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/res/mipmap/course_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/res/mipmap/course_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/data/src/main/res/mipmap/course_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/src/androidTest/java/com/magni/coursesdemo/di/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/DataBaseModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/NavigationModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/NetworkModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/RepoModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/UseCaseModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/ViewModelModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/navigation/AppFragmentProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/src/main/java/com/magni/coursesdemo/di/navigation/AppNavigator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/di/src/test/java/com/magni/coursesdemo/di/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/domain/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/domain/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/entity/AppError.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/entity/Course.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/repo/CourcesRepo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/useCases/BaseUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/useCases/GetCourcesUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/useCases/GetFavoritesUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/domain/src/main/java/com/magni/coursesdemo/domain/useCases/UpdateCourseLikeStatusUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/androidTest/java/com/magni/coursesdemo/presentation/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/CourseAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/ErrorHelper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/FillWidthTransformation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/FragmentContract.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/NavigationContract.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/StatefulContainer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/java/com/magni/coursesdemo/presentation/UiState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/color/bottom_nav_icon_text_tint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/color/bottom_nav_ripple_color.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_blur_circle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_blur_rounded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_circle_ripple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/bg_rounded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/empty.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_arrow_down_up.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_arrow_right_short_fill.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_back.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_bookmark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_bookmark_filled.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_chevron_right.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_error.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_filter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_person.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_search.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/ic_star_filled.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/drawable/placeholder.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/font/roboto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/font/roboto_bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/font/roboto_medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/font/roboto_regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/layout/item_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/layout/layout_stateful_container.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/menu/bottom_navigation_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/presentation/src/test/java/com/magni/coursesdemo/presentation/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/androidTest/java/com/magni/coursesdemo/feature/auth/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/java/com/magni/coursesdemo/feature/auth/AuthActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/java/com/magni/coursesdemo/feature/auth/AuthViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/drawable/gradient.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_odnoklassniki.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_odnoklassniki_padded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_vk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/drawable/ic_vk_padded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/layout/activity_auth.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/test/java/com/magni/coursesdemo/feature/auth/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/favorites/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/favorites/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/favorites/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/favorites/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/favorites/src/androidTest/java/com/magni/coursesdemo/feature/favorites/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/favorites/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/favorites/src/main/java/com/magni/coursesdemo/feature/favorites/FavoritesFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/favorites/src/main/java/com/magni/coursesdemo/feature/favorites/FavoritesViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/favorites/src/main/res/layout/fragment_favorites.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/favorites/src/test/java/com/magni/coursesdemo/feature/favorites/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/home/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/home/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/home/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/home/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/home/src/androidTest/java/com/magni/coursesdemo/feature/home/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/home/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/home/src/main/java/com/magni/coursesdemo/feature/home/presentation/HomeFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/home/src/main/java/com/magni/coursesdemo/feature/home/presentation/HomeViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/home/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/home/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/home/src/test/java/com/magni/coursesdemo/feature/home/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/main/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/main/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/main/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/main/src/androidTest/java/com/magni/coursesdemo/feature/main/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/main/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/main/src/main/java/com/magni/coursesdemo/feature/main/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/main/src/main/res/drawable/bottom_nav_item_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/main/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/main/src/test/java/com/magni/coursesdemo/feature/main/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/profile/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/profile/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/profile/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/profile/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/profile/src/androidTest/java/com/magni/coursesdemo/feature/profile/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/profile/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/profile/src/main/java/com/magni/coursesdemo/feature/profile/ProfileFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/profile/src/main/java/com/magni/coursesdemo/feature/profile/ProfileViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/profile/src/main/res/layout/fragment_profile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/profile/src/test/java/com/magni/coursesdemo/feature/profile/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="48509fad-e516-4f68-99a0-5581f906eade" name="Changes" comment="added vk and odnoklassniki button callback">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/presentation/src/main/res/color/bottom_nav_icon_text_tint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/presentation/src/main/res/color/bottom_nav_icon_text_tint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/presentation/src/main/res/layout/item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/presentation/src/main/res/layout/item_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/presentation/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/presentation/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature/favorites/src/main/res/layout/fragment_favorites.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feature/favorites/src/main/res/layout/fragment_favorites.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature/profile/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feature/profile/src/main/res/layout/fragment_profile.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,6 +221,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ValKotova"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ValKotova/CoursesDemo",
+    "accountId": "f20d5dbb-8b28-492d-955c-69cb917e89dd"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -413,7 +249,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SHOW_ALL_PROCESSES": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
@@ -527,7 +365,42 @@
       <option name="presentableId" value="Default" />
       <updated>1757753383093</updated>
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <option name="closed" value="true" />
+      <created>1758139434312</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758139434312</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added vk and odnoklassniki button callback">
+      <option name="closed" value="true" />
+      <created>1758140889160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758140889160</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="123" />
+    <MESSAGE value="added vk and odnoklassniki button callback" />
+    <option name="LAST_COMMIT_MESSAGE" value="added vk and odnoklassniki button callback" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,6 +474,21 @@
         <entry key="com.magni.coursesdemo">
           <value>
             <CheckInfo lastCheckTimestamp="1758129841856" />
+          </value>
+        </entry>
+        <entry key="com.magni.coursesdemo.di.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758139283334" />
+          </value>
+        </entry>
+        <entry key="com.magni.coursesdemo.feature.auth.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758139283336" />
+          </value>
+        </entry>
+        <entry key="com.magni.coursesdemo.feature.favorites.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1758139283680" />
           </value>
         </entry>
         <entry key="com.magni.coursesdemo.feature.home.test">

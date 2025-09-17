@@ -164,20 +164,20 @@
                 tools:text="5 900 ₽" />
 
                 <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.RoundedApp.TextButton"
                     android:id="@+id/btnMore"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/tvDescription"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="16dp"
                     android:layout_marginEnd="12dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="16dp"
+                    android:layout_height="44dp"
                     android:text="@string/more"
                     android:padding="0dp"
                     android:backgroundTint="@color/container"
                     android:textAppearance="@style/TextAppearance.LabelSmall"
                     android:drawableEnd="@drawable/ic_arrow_right_short_fill"
+                    app:cornerRadius="0dp"
                     android:drawableTint="?attr/colorPrimary"
                     android:textColor="?attr/colorPrimary" />
 

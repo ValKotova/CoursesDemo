@@ -16,7 +16,7 @@
             android:name="com.magni.coursesdemo.feature.auth.AuthActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize"
-            android:theme="@style/Theme.RoundedApp.NoActionBar">
+            android:theme="@style/Theme.Auth">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -27,7 +27,7 @@
             android:name="com.magni.coursesdemo.feature.main.MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize"
-            android:theme="@style/Theme.RoundedApp.NoActionBar"/>
+            android:theme="@style/Theme.RoundedApp"/>
 
     </application>
 
