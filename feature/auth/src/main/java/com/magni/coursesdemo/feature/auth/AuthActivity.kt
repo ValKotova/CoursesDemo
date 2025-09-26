@@ -1,10 +1,16 @@
 package com.magni.coursesdemo.feature.auth
 
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.text.Editable
+import android.text.InputFilter
+import android.text.TextWatcher
+import android.view.inputmethod.InputMethodManager
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.core.widget.doAfterTextChanged
 import com.magni.coursesdemo.feature.auth.databinding.ActivityAuthBinding
 import com.magni.coursesdemo.presentation.NavigationContract
@@ -42,9 +48,32 @@ class AuthActivity : AppCompatActivity() {
     }
 
     private fun setupListeners() {
-        binding.etLogin.doAfterTextChanged { text ->
-            viewModel.onLoginChanged(text?.toString() ?: "")
-        }
+        binding.etLogin.addTextChangedListener(object : TextWatcher {
+            private var isEditing = false
+
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
+
+            override fun afterTextChanged(editable: Editable?) {
+                if (isEditing) return
+
+                editable?.let {
+                    isEditing = true
+
+                    val original = it.toString()
+                    val cleanText = original.replace("[^a-zA-Z0-9@._-]".toRegex(), "")
+
+                    if (original != cleanText) {
+                        it.replace(0, it.length, cleanText)
+                        binding.etLogin.clearComposingText()
+                    }
+
+                    isEditing = false
+                    viewModel.onLoginChanged(it.toString())
+                }
+            }
+        })
 
         binding.etPassword.doAfterTextChanged { text ->
             viewModel.onPasswordChanged(text?.toString() ?: "")

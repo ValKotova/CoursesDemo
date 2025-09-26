@@ -9,6 +9,7 @@ import dagger.hilt.components.SingletonComponent
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
@@ -20,8 +21,9 @@ object NetworkModule {
     @Singleton
     fun provideRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://courses.com/")
+            .baseUrl("https://drive.usercontent.google.com/")
             .client(provideOkHttpClient())
+            .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
 
@@ -47,7 +49,7 @@ object NetworkModule {
     @Provides
     @Singleton
     fun provideCoursesApiService(retrofit: Retrofit): CourcesApi {
-        //return retrofit.create(CourcesApi::class.java)
-        return FakeCourcesApi()
+        return retrofit.create(CourcesApi::class.java)
+        //return FakeCourcesApi()
     }
 }
